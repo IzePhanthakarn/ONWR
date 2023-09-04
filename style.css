@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #063970; /* เปลี่ยนสีตามที่คุณต้องการ */
+    transform: translateY(-15px);
+}
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 5px solid #063970;
+    z-index: 20;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+    height: 35px;
+
+}
+
+.c2g{
+    
+}
+
+.trapezoid {
+    position: relative;
+    border-top: 50px solid #555;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 125px;
+}
